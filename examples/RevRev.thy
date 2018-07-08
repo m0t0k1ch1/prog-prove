@@ -1,4 +1,4 @@
-theory ExampleRevRev
+theory RevRev
 imports Main
 begin
 
