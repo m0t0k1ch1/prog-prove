@@ -16,11 +16,13 @@ apply(induction x)
 apply(auto)
 done
 
+(* add is associative *)
 lemma [simp]: "add (add x y) z = add x (add y z)"
 apply(induction x)
 apply(auto)
 done
 
+(* add is commutative *)
 lemma [simp]: "add x y = add y x"
 apply(induction x)
 apply(auto)
